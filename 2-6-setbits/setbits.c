@@ -10,6 +10,9 @@ leaving the other bits unchanged.
 unsigned getbits(unsigned x, int p, int n);
 unsigned setbits(unsigned x, int p, int n, int y);
 
+
+// TODO: This is unfinished and really broken.
+// Don't try to make sense of it, because it doesn't.
 int main() {
 
     printf("%d\n", 1 & ~(~0 << 1));
